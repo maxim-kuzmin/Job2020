@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <label>Математическое выражение:
+    <input type="text" [formControl]="fieldExpression">
+  </label>
+  <button [disabled]="buttonSubmitDisabled">Проверить</button>
+</form>
+Результат: {{isOk}}
