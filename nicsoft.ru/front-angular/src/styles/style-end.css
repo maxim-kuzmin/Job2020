@@ -1,0 +1,14 @@
+body a,
+body a:active,
+body a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  font-size: large;
+}

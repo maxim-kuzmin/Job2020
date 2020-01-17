@@ -1,8 +1,26 @@
-<h1>{{title}}</h1>
-<form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
-  <label>Математическое выражение:
-    <input type="text" [formControl]="fieldExpression">
-  </label>
-  <button [disabled]="buttonSubmitDisabled">Проверить</button>
-</form>
-Результат: {{isOk}}
+<div class="css--page--validation">
+  <ul class="css--page--validation__part css--page--validation__menu">
+    <li class="css--page--validation__item">
+      <h2><a [routerLink]="['/']">Вернуться к списку заданий</a></h2>
+    </li>
+  </ul>
+  <h1 class="css--page--validation__part css--page--validation__title">{{title}}</h1>
+  <form (ngSubmit)="onSubmit()" class="css--page--validation__form">
+    <div class="css--page--validation__part css--page--validation__fields">
+      <div class="css--page--validation__field">
+        <label for="id--page--validation__input" class="css--page--validation__label">Математическое выражение</label>
+        <input type="text" [formControl]="fieldExpression" class="css--page--validation__input"
+               id="id--page--validation__input">
+      </div>
+    </div>
+    <div class="css--page--validation__part css--page--validation__buttons">
+        <button [disabled]="buttonSubmitDisabled" class="css--page--validation__button">Проверить</button>
+    </div>
+  </form>
+  <div class="css--page--validation__part css--page--validation__result">
+    <div class="css--page--validation__field">
+      <label class="css--page--validation__label">Результат</label>
+      <span class="css--page--validation__output">{{isOk}}</span>
+    </div>
+  </div>
+</div>

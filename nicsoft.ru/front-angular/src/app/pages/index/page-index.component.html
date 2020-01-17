@@ -1,10 +1,11 @@
-<h1>{{title}}</h1>
-<ul>
-  <li>
-    <h2><a [routerLink]="['/validation']">Проверка правильности расстановки скобок в математическом выражении</a></h2>
-  </li>
-  <li>
-    <h2><a [routerLink]="['/loading']">Загрузка данных из файлов</a></h2>
-  </li>
-</ul>
-
+<div class="css--page--index">
+  <h1 class="css--page--index__part css--page--index__title">{{title}}</h1>
+  <ul class="css--page--index__part css--page--index__list">
+    <li class="css--page--index__item">
+      <h2><a [routerLink]="['/validation']">Проверка правильности расстановки скобок в математическом выражении</a></h2>
+    </li>
+    <li class="css--page--index__item">
+      <h2><a [routerLink]="['/loading']">Загрузка данных из файлов</a></h2>
+    </li>
+  </ul>
+</div>

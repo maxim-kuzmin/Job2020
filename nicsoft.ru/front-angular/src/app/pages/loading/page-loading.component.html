@@ -1,10 +1,19 @@
-<h1>{{title}}</h1>
-<div>
-  {{name}}
-</div>
-<div>
-  {{text0}}
-</div>
-<div>
-  {{text1}}
+<div class="css--page--loading">
+  <ul class="css--page--loading__part css--page--loading__menu">
+    <li class="css--page--loading__item">
+      <h2><a [routerLink]="['/']">Вернуться к списку заданий</a></h2>
+    </li>
+  </ul>
+  <h1 class="css--page--loading__part css--page--loading__title">{{title}}</h1>
+  <ul class="css--page--loading__part css--page--loading__list">
+    <li class="css--page--loading__item">
+      {{name}}
+    </li>
+    <li class="css--page--loading__item">
+      {{text0}}
+    </li>
+    <li class="css--page--loading__item">
+      {{text1}}
+    </li>
+  </ul>
 </div>

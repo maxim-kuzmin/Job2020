@@ -1,0 +1,77 @@
+.css--page--validation {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.css--page--validation__button {
+}
+
+.css--page--validation__buttons {
+  align-items: center;
+  background-color: lightgrey;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.css--page--validation__field {
+}
+
+.css--page--validation__fields {
+  background-color: lightblue;
+}
+
+.css--page--validation__form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.css--page--validation__input {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+
+.css--page--validation__item {
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.css--page--validation__label {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.css--page--validation__label:after {
+  content: ":";
+}
+
+.css--page--validation__menu {
+  background-color: lightblue;
+}
+
+.css--page--validation__output {
+  font-weight: bold;
+}
+
+.css--page--validation__part {
+  box-sizing: border-box;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.css--page--validation__result {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.css--page--validation__title {
+  background-color: lightgrey;
+  text-align: center;
+}
