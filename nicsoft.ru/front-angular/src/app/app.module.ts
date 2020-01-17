@@ -8,10 +8,14 @@ import {AppPageIndexComponent} from './pages/index/page-index.component';
 import {AppPageLoadingComponent} from './pages/loading/page-loading.component';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
+import {AppPageCenterComponent} from './pages/center/page-center.component';
+import {AppPageFormComponent} from './pages/form/page-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    AppPageCenterComponent,
+    AppPageFormComponent,
     AppPageIndexComponent,
     AppPageLoadingComponent,
     AppPageValidationComponent

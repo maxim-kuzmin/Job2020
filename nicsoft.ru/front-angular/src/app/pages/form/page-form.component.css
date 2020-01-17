@@ -1,0 +1,68 @@
+.css--page--form {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.css--page--form__checkbox {
+  margin-right: 0.5em;
+}
+
+.css--page--form__container {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20em;
+}
+
+.css--page--form__column {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5em;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.css--page--form__column_left {
+  background-color: lightcoral;
+}
+
+.css--page--form__column_right {
+  background-color: lightyellow;
+}
+
+.css--page--form__field {
+  white-space: nowrap;
+}
+
+.css--page--form__fields {
+}
+
+.css--page--form__input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.css--page--form__item {
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.css--page--form__menu {
+  background-color: lightblue;
+}
+
+.css--page--form__part {
+  box-sizing: border-box;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.css--page--form__title {
+  background-color: lightgrey;
+  text-align: center;
+}

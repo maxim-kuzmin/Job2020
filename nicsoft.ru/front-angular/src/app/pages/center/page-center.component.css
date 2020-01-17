@@ -1,0 +1,40 @@
+.css--page--center {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.css--page--center__container {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20em;
+}
+
+.css--page--center__content {
+  background-color: lightcoral;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.css--page--center__item {
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.css--page--center__menu {
+  background-color: lightblue;
+}
+
+.css--page--center__part {
+  box-sizing: border-box;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.css--page--center__title {
+  background-color: lightgrey;
+  text-align: center;
+}
