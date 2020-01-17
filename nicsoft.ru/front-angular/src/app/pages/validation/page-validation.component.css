@@ -35,11 +35,6 @@
   width: 100%;
 }
 
-.css--page--validation__item {
-  text-align: center;
-  margin: 0.5em 0;
-}
-
 .css--page--validation__label {
   display: inline-block;
   margin-right: 0.5em;
@@ -51,6 +46,11 @@
 
 .css--page--validation__menu {
   background-color: lightblue;
+}
+
+.css--page--validation__menu-item {
+  text-align: center;
+  margin: 0.5em 0;
 }
 
 .css--page--validation__output {

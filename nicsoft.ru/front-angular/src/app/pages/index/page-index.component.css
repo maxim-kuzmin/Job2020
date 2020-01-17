@@ -4,16 +4,16 @@
   flex-direction: column;
 }
 
-.css--page--index__item {
-  text-align: center;
-  margin: 0.5em 0;
-}
-
 .css--page--index__list {
   align-items: center;
   background-color: lightblue;
   display: flex;
   flex-direction: column;
+}
+
+.css--page--index__list-item {
+  text-align: center;
+  margin: 0.5em 0;
 }
 
 .css--page--index__part {

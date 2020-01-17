@@ -12,19 +12,19 @@
   background-color: lightblue;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   height: 20em;
+  justify-content: space-around;
 }
 
 .css--page--form__column {
   align-items: center;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-around;
   padding: 0.5em;
-  height: 100%;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .css--page--form__column_left {
@@ -47,13 +47,13 @@
   width: 100%;
 }
 
-.css--page--form__item {
-  text-align: center;
-  margin: 0.5em 0;
-}
-
 .css--page--form__menu {
   background-color: lightblue;
+}
+
+.css--page--form__menu-item {
+  margin: 0.5em 0;
+  text-align: center;
 }
 
 .css--page--form__part {

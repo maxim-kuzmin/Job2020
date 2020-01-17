@@ -19,13 +19,13 @@
   padding: 0.5em;
 }
 
-.css--page--center__item {
-  text-align: center;
-  margin: 0.5em 0;
-}
-
 .css--page--center__menu {
   background-color: lightblue;
+}
+
+.css--page--center__menu-item {
+  text-align: center;
+  margin: 0.5em 0;
 }
 
 .css--page--center__part {
